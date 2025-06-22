@@ -2,7 +2,6 @@
 -- CREATE DATABASE IF NOT EXISTS bd;
 
 -- Usar la base de datos
-USE bd;
 
 -- Crear la tabla de productos si no existe
 CREATE TABLE IF NOT EXISTS productos (
