@@ -5,7 +5,7 @@
 
 -- Crear la tabla de productos si no existe
 CREATE TABLE IF NOT EXISTS productos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     descripcion TEXT,
     cantidad_disponible INT NOT NULL DEFAULT 0,
