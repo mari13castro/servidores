@@ -1,5 +1,5 @@
 -- Crear la base de datos si no existe
-CREATE DATABASE IF NOT EXISTS bd;
+-- CREATE DATABASE IF NOT EXISTS bd;
 
 -- Usar la base de datos
 USE bd;
